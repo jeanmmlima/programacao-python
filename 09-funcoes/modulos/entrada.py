@@ -1,7 +1,7 @@
-def valida_inteiro(mensagem, minimo, maximo):
+def valida_inteiro(mensagem, mínimo, máximo):
     while True:
         v=int(input(mensagem))
-        if v >= minimo and v <= maximo:
+        if v >= mínimo and v <= máximo:
             return v
         else:
-            print("Você deve digitar um valor entre %d e %d" % (minimo, maximo))
+            print("Digite um valor entre %d e %d" % (mínimo, máximo))
